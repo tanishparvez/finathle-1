@@ -20,12 +20,12 @@ const FAQs = () => {
       title: 'General Questions',
       faqs: [
         {
-          question: 'What services does Resurgent provide?',
-          answer: 'Resurgent specializes in debt collection services and consumer education. We help businesses recover outstanding debts while providing educational resources to help consumers understand their rights and responsibilities.'
+          question: 'What services does Finathle provide?',
+          answer: 'Finathle specializes in debt collection services and consumer education. We help businesses recover outstanding debts while providing educational resources to help consumers understand their rights and responsibilities.'
         },
         {
-          question: 'How long has Resurgent been in business?',
-          answer: 'Resurgent has been operating for over 25 years, building a reputation for ethical practices and effective results in the debt collection industry.'
+          question: 'How long has Finathle been in business?',
+          answer: 'Finathle has been operating for over 25 years, building a reputation for ethical practices and effective results in the debt collection industry.'
         },
         {
           question: 'Where are your offices located?',

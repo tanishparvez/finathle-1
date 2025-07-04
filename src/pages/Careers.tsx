@@ -84,7 +84,7 @@ const Careers = () => {
     <Layout>
       <HeroSection
         subtitle="Join Our Team"
-        title="Build Your Career with Resurgent"
+        title="Build Your Career with Finathle"
         description="Discover exciting opportunities to grow your career in a supportive, ethical, and dynamic environment."
         ctaText="View Open Positions"
         ctaLink="#jobs"
@@ -96,7 +96,7 @@ const Careers = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Resurgent?
+              Why Choose Finathle?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We're committed to creating an environment where talented individuals can thrive and make a meaningful impact.

@@ -48,7 +48,7 @@ const CincinnatiLocation = () => {
                     <Mail className="w-5 h-5 text-blue-600 mt-1" />
                     <div>
                       <div className="font-semibold text-gray-900">Email</div>
-                      <div className="text-gray-600">cincinnati@resurgent.com</div>
+                      <div className="text-gray-600">cincinnati@Finathle.com</div>
                     </div>
                   </div>
                   

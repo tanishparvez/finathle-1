@@ -2,14 +2,15 @@ import React from 'react';
 import Layout from '../components/Layout';
 import HeroSection from '../components/HeroSection';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import location from "../image/location.png";
 
 const GreenwilleHeadquarters = () => {
   return (
     <Layout>
       <HeroSection
         subtitle="Our Headquarters"
-        title="Greenville, South Carolina"
-        description="Visit our main office located in the heart of beautiful Greenville, SC."
+        title="Finathle"
+        description="Visit our main office located in the heart of beautiful Finathle, SC."
         backgroundImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=800&fit=crop"
         className="mt-16"
       />
@@ -39,8 +40,9 @@ const GreenwilleHeadquarters = () => {
                     <div>
                       <div className="font-semibold text-gray-900">Address</div>
                       <div className="text-gray-600">
-                        123 Business Boulevard<br />
-                        Greenville, SC 29601
+                        8E, James Hickey Sarani, 
+                        2nd Floor, Room-3A, 
+                        Kolkata - 700069
                       </div>
                     </div>
                   </div>
@@ -51,7 +53,7 @@ const GreenwilleHeadquarters = () => {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Phone</div>
-                      <div className="text-gray-600">(864) 555-0100</div>
+                      <div className="text-gray-600">+91 98765 43210</div>
                     </div>
                   </div>
                   
@@ -61,7 +63,7 @@ const GreenwilleHeadquarters = () => {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Email</div>
-                      <div className="text-gray-600">greenville@finathle.com</div>
+                      <div className="text-gray-600">info@finathle.com</div>
                     </div>
                   </div>
                   
@@ -83,12 +85,14 @@ const GreenwilleHeadquarters = () => {
 
               <div className="bg-white/80 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-sky-100/50 hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2 hover:-rotate-1 animate-fade-in-delayed">
                 <h3 className="text-xl font-semibold bg-gradient-to-r from-sky-800 to-cyan-700 bg-clip-text text-transparent mb-4">
-                  About Our Greenville Office
+                  About Our Finathle Office
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Our Greenville headquarters serves as the heart of our operations, housing our executive team, 
-                  customer service department, and compliance division. This modern facility reflects our commitment 
-                  to providing a professional and comfortable environment for both our employees and visiting clients.
+                  Our office is more than just a workspace — it’s a hub of trust, innovation, and collaboration. 
+                  Strategically located for easy accessibility, our modern facility is designed to provide a welcoming environment for clients and a 
+                  productive atmosphere for our team. Equipped with the latest technology and secure infrastructure, we ensure seamless operations,
+                   confidentiality, and efficiency in all financial processes. Whether you're visiting us for a consultation or working alongside us, 
+                  our space reflects our commitment to professionalism, precision, and client-first service.
                 </p>
               </div>
             </div>
@@ -96,20 +100,10 @@ const GreenwilleHeadquarters = () => {
             {/* Enhanced Map Placeholder with 3D effects */}
             <div className="animate-fade-in-delayed">
               <div className="bg-white/80 backdrop-blur-xl rounded-3xl overflow-hidden shadow-2xl border border-cyan-100/50 hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2 hover:rotate-1">
-                <div className="h-96 bg-gradient-to-br from-blue-100 via-sky-100 to-cyan-100 flex items-center justify-center relative overflow-hidden">
-                  {/* Floating 3D elements in map */}
-                  <div className="absolute top-10 left-10 w-16 h-16 bg-gradient-to-br from-blue-300/30 to-sky-300/30 rounded-full blur-xl float" />
-                  <div className="absolute bottom-10 right-10 w-12 h-12 bg-gradient-to-br from-sky-300/30 to-cyan-300/30 rounded-full blur-lg float-delayed" />
-                  
-                  <div className="text-center relative z-10">
-                    <div className="p-4 bg-gradient-to-br from-blue-500 to-sky-500 rounded-2xl shadow-xl mb-4 inline-block transform hover:scale-110 transition-transform duration-300">
-                      <MapPin className="w-16 h-16 text-white" />
-                    </div>
-                    <p className="text-lg font-semibold bg-gradient-to-r from-blue-700 to-sky-600 bg-clip-text text-transparent">Interactive Map</p>
-                    <p className="text-sm text-gray-600">
-                      123 Business Boulevard, Greenville, SC 29601
-                    </p>
-                  </div>
+                <div
+                  className="h-96 relative"
+                  style={{ backgroundImage: `url(${location})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+                >
                 </div>
               </div>
             </div>
@@ -131,7 +125,7 @@ const GreenwilleHeadquarters = () => {
               Office Gallery
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Take a virtual tour of our Greenville headquarters.
+              Take a virtual tour of our Finathle headquarters.
             </p>
           </div>
 
@@ -219,10 +213,10 @@ const GreenwilleHeadquarters = () => {
             <div className="animate-slide-in-left">
               <div className="bg-white/80 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-blue-100/50 hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2">
                 <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-800 to-sky-700 bg-clip-text text-transparent mb-6">
-                  Why Greenville?
+                  Why Finathle?
                 </h2>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Greenville, South Carolina, offers the perfect blend of business opportunities and quality of life. 
+                  Finathle, South Carolina, offers the perfect blend of business opportunities and quality of life. 
                   Known for its thriving downtown, excellent schools, and proximity to the Blue Ridge Mountains, 
                   it's an ideal location for our headquarters.
                 </p>
@@ -254,7 +248,7 @@ const GreenwilleHeadquarters = () => {
               <div className="relative overflow-hidden rounded-3xl shadow-2xl transform hover:scale-105 hover:rotate-1 transition-all duration-500">
                 <img
                   src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&h=400&fit=crop"
-                  alt="Greenville cityscape"
+                  alt="Finathle cityscape"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/30 via-sky-900/10 to-transparent"></div>

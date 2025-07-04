@@ -23,8 +23,8 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><Link to="/who-we-are" className="text-gray-300 hover:text-white transition-colors">Who We Are</Link></li>
               <li><Link to="/culture" className="text-gray-300 hover:text-white transition-colors">Culture</Link></li>
-              <li><Link to="/greenville-headquarters" className="text-gray-300 hover:text-white transition-colors">Greenville HQ</Link></li>
-              <li><Link to="/cincinnati-location" className="text-gray-300 hover:text-white transition-colors">Cincinnati</Link></li>
+              <li><Link to="/Finathle-headquarters" className="text-gray-300 hover:text-white transition-colors">Finathle HQ</Link></li>
+              {/* <li><Link to="/cincinnati-location" className="text-gray-300 hover:text-white transition-colors">Cincinnati</Link></li> */}
               <li><Link to="/careers" className="text-gray-300 hover:text-white transition-colors">Careers</Link></li>
             </ul>
           </div>
@@ -45,16 +45,16 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Contact</h3>
             <div className="space-y-2 text-gray-300">
               <p>123 Business Blvd</p>
-              <p>Greenville, SC 29601</p>
+              <p>Finathle, SC 29601</p>
               <p className="pt-2">Phone: (864) 555-0100</p>
-              <p>Email: info@resurgent.com</p>
+              <p>Email: info@Finathle.com</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Resurgent. All rights reserved.
+            © 2024 Finathle. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="/faqs" className="text-gray-400 hover:text-white text-sm transition-colors">FAQs</Link>

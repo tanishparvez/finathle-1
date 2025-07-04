@@ -44,7 +44,7 @@ const Culture = () => {
     {
       name: 'Jennifer Martinez',
       position: 'Senior Account Manager',
-      quote: 'Working at Resurgent has been incredibly rewarding. The company truly cares about its employees and provides excellent opportunities for growth.',
+      quote: 'Working at Finathle has been incredibly rewarding. The company truly cares about its employees and provides excellent opportunities for growth.',
       image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face'
     },
     {
@@ -66,7 +66,7 @@ const Culture = () => {
       <HeroSection
         subtitle="Company Culture"
         title="Where Great People Thrive"
-        description="Discover what makes Resurgent a great place to work and grow your career."
+        description="Discover what makes Finathle a great place to work and grow your career."
         className="mt-16"
       />
 
@@ -102,7 +102,7 @@ const Culture = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Life at Resurgent
+                Life at Finathle
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Our offices are designed to foster collaboration and creativity. From open workspaces 
@@ -184,7 +184,7 @@ const Culture = () => {
               What Our Team Says
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Hear from our employees about their experience working at Resurgent.
+              Hear from our employees about their experience working at Finathle.
             </p>
           </div>
 

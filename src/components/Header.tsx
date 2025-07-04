@@ -22,8 +22,8 @@ const Header = () => {
   const companyLinks = [
     { label: 'Who We Are', href: '/who-we-are' },
     { label: 'Culture', href: '/culture' },
-    { label: 'Greenville Headquarters', href: '/greenville-headquarters' },
-    { label: 'Cincinnati Location', href: '/cincinnati-location' },
+    { label: 'Finathle Headquarters', href: '/Finathle-headquarters' },
+    // { label: 'Cincinnati Location', href: '/cincinnati-location' },
     { label: 'Careers', href: '/careers' },
   ];
 

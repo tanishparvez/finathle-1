@@ -154,7 +154,7 @@ const ContactUs = () => {
                     </div>
                     <div className="flex items-center space-x-3">
                       <Mail className="w-5 h-5 text-blue-600" />
-                      <span className="text-gray-600">greenville@resurgent.com</span>
+                      <span className="text-gray-600">greenville@Finathle.com</span>
                     </div>
                   </div>
                 </div>
@@ -180,7 +180,7 @@ const ContactUs = () => {
                     </div>
                     <div className="flex items-center space-x-3">
                       <Mail className="w-5 h-5 text-blue-600" />
-                      <span className="text-gray-600">cincinnati@resurgent.com</span>
+                      <span className="text-gray-600">cincinnati@Finathle.com</span>
                     </div>
                   </div>
                 </div>
